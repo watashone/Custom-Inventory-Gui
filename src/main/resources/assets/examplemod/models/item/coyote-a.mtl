@@ -1,0 +1,38 @@
+# Blender MTL File: 'None'
+# Material Count: 7
+
+newmtl mat0
+Kd 1.000000 1.000000 1.000000
+d 1.000000
+map_Kd examplemod:items/coyote
+
+newmtl mat1
+Kd 1.000000 1.000000 1.000000
+d 1.000000
+map_Kd examplemod:items/coyote
+
+newmtl mat2
+Kd 1.000000 1.000000 1.000000
+d 1.000000
+map_Kd examplemod:items/coyote
+
+newmtl mat3
+Kd 1.000000 1.000000 1.000000
+d 1.000000
+map_Kd examplemod:items/coyote
+
+newmtl mat4
+Kd 1.000000 1.000000 1.000000
+d 1.000000
+map_Kd examplemod:items/coyote
+
+newmtl mat5
+Kd 1.000000 1.000000 1.000000
+d 1.000000
+map_Kd examplemod:items/coyote
+
+newmtl mat6
+Kd 1.000000 1.000000 1.000000
+d 1.000000
+map_Kd examplemod:items/coyote
+

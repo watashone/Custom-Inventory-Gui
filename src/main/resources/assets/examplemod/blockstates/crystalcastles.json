@@ -1,0 +1,57 @@
+{
+  "forge_marker": 1,
+  "variants": {
+    "normal": [ { } ],
+    "inventory": [
+      {
+        "model": "examplemod:crystalcastles.obj"
+      }
+    ]
+  },
+  "defaults" : {
+
+    "transform": {
+
+      "thirdperson_righthand": {
+        "rotation": [ 17, 180, 0 ],
+        "translation": [ -0.5, 0.45, -0.2 ],
+        "scale": [ 1.00, 1.00, 1.00 ]
+      },
+      "thirdperson_lefthand": {
+        "rotation": [ 10, 180, -94 ],
+        "translation": [ -0.55, 0.40, -0.33 ],
+        "scale": [ 1.00, 1.00, 1.00 ]
+      },
+      "firstperson_righthand": {
+        "rotation": [ 0, 190, 95 ],
+        "translation": [ 0.60, 0.47, -0.50 ],
+        "scale": [ 1.00, 1.00, 1.00 ]
+      },
+      "firstperson_lefthand": {
+        "rotation": [ 0, 190, -95 ],
+        "translation": [ -0.45, 0.50, -0.55 ],
+        "scale": [ 1.00, 1.00, 1.00 ]
+      },
+      "gui": {
+        "rotation": [ 85, 140, 0 ],
+        "translation": [ -0.30, 0.20, 0.20 ],
+        "scale": [ 0.75, 0.75, 0.75 ]
+      },
+      "head": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0.00, 0.00, 0.00 ],
+        "scale": [ 1.00, 1.00, 1.00 ]
+      },
+      "fixed": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0.00, 0.00, 0.00 ],
+        "scale": [ 1.00, 1.00, 1.00 ]
+      },
+      "ground": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0.60, 0.20, 0.60 ],
+        "scale": [ 1.00, 1.00, 1.00 ]
+      }
+    }
+  }
+}
