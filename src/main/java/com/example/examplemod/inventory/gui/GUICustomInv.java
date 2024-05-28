@@ -156,7 +156,7 @@ public class GUICustomInv extends GuiContainer {
         this.mc.getTextureManager().bindTexture(INVENTORY_GUI_TEXTURE);
         this.xSize = 0;
         this.ySize = 0;
-        customGuiHelper.drawTexturedModalRect(22, 30, 0, 0, 201.75, 250);
+        customGuiHelper.drawTexturedModalRect(22, 30, 0, 0, 203, 250);
 
         GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
         this.mc.getTextureManager().bindTexture(INVENTORY_SLOTS_TEXTURE);
@@ -284,8 +284,8 @@ public class GUICustomInv extends GuiContainer {
     private boolean isMouseWithinBounds(int mouseX, int mouseY) {
         if (getSlotUnderMouse(mouseX, mouseY)) return true;
         return !((mouseX >= 225 && mouseX <= 460 && mouseY >= 91 && mouseY <= 190)
-                || (mouseX >= 230 && mouseX <= 464 && mouseY >= 195 && mouseY <= 229));
-
+                || (mouseX >= 230 && mouseX <= 464 && mouseY >= 195 && mouseY <= 229)
+                || (mouseX >= 22 && mouseX <= 225 && mouseY >= 30 && mouseY <= 280));
     }
 
     private boolean getSlotUnderMouse(int mouseX, int mouseY) {
